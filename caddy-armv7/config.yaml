@@ -1,0 +1,11 @@
+name: "Caddy ARMv7"
+version: "1.0.0"
+slug: "caddy_armv7"
+description: "Caddy reverse proxy HTTPS pour Home Assistant sur ARMv7"
+arch:
+  - armv7
+
+init: false
+host_network: true
+startup: services
+boot: auto
